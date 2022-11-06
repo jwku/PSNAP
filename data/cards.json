@@ -1,0 +1,2360 @@
+[
+    {
+        "id"        : "Abomination",
+        "name"      : "Abomination",
+        "image"     : "cards/abomination.png",
+        "cost"      : 5,
+        "power"     : 9,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "AbsorbingMan",
+        "name"      : "Absorbing Man",
+        "image"     : "cards/absorbing-man.png",
+        "cost"      : 4,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "If the last card you played has an On Reveal ability, this card copies it."
+    },
+    {
+        "id"        : "AdamWarlock",
+        "name"      : "Adam Warlock",
+        "image"     : "cards/adam-warlock.png",
+        "cost"      : 2,
+        "power"     : 0,
+        "activate"  : "always",
+        "ability"   : "At the end of each turn, if you are winning this location, draw a card."
+    },
+    {
+        "id"        : "Aero",
+        "name"      : "Aero",
+        "image"     : "cards/aero.png",
+        "cost"      : 5,
+        "power"     : 8,
+        "activate"  : "reveal",
+        "ability"   : "Move all enemy cards played this turn to this location."
+    },
+    {
+        "id"        : "AgathaHarkness",
+        "name"      : "Agatha Harkness",
+        "image"     : "cards/agatha-harkness.png",
+        "cost"      : 6,
+        "power"     : 14,
+        "activate"  : "always",
+        "ability"   : "Agatha starts in your hand and plays your cards for you."
+    },
+    {
+        "id"        : "Agent13",
+        "name"      : "Agent 13",
+        "image"     : "cards/agent-13.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Add a random card to your hand."
+    },
+    {
+        "id"        : "AgentCoulson",
+        "name"      : "Agent Coulson",
+        "image"     : "cards/agent-coulson.png",
+        "cost"      : 3,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "Add a random 4-cost and 5-cost card to your hand."
+    },
+    {
+        "id"        : "AmericaChavez",
+        "name"      : "America Chavez",
+        "image"     : "cards/america-chavez.png",
+        "cost"      : 6,
+        "power"     : 9,
+        "activate"  : "always",
+        "ability"   : "You always draw this card on turn 6, and not before."
+    },
+    {
+        "id"        : "Angel",
+        "name"      : "Angel",
+        "image"     : "cards/angel.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "always",
+        "ability"   : "When one of your cards is destroyed, this flies out of your deck to replace it."
+    },
+    {
+        "id"        : "Angela",
+        "name"      : "Angela",
+        "image"     : "cards/angela.png",
+        "cost"      : 2,
+        "power"     : 1,
+        "activate"  : "always",
+        "ability"   : "When you play a card here, +2 Power."
+    },
+    {
+        "id"        : "AntMan",
+        "name"      : "Ant-Man",
+        "image"     : "cards/ant-man.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "ongoing",
+        "ability"   : "If you have 3 other cards here, +3 Power."
+    },
+    {
+        "id"        : "Apocalypse",
+        "name"      : "Apocalypse",
+        "image"     : "cards/apocalypse.png",
+        "cost"      : 6,
+        "power"     : 8,
+        "activate"  : "always",
+        "ability"   : "When you discard this from your hand, put it back with +4 Power."
+    },
+    {
+        "id"        : "Armor",
+        "name"      : "Armor",
+        "image"     : "cards/armor.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "ongoing",
+        "ability"   : "Cards at this location can't be destroyed."
+    },
+    {
+        "id"        : "ArnimZola",
+        "name"      : "Arnim Zola",
+        "image"     : "cards/arnim-zola.png",
+        "cost"      : 6,
+        "power"     : 0,
+        "activate"  : "reveal",
+        "ability"   : "Destroy a random friendly card here; add copies of it to the other locations."
+    },
+    {
+        "id"        : "Attuma",
+        "name"      : "Attuma",
+        "image"     : "cards/attuma.png",
+        "cost"      : 4,
+        "power"     : 10,
+        "activate"  : "always",
+        "ability"   : "If you have another card here at the end of your turn, destroy this."
+    },
+    {
+        "id"        : "BaronMordo",
+        "name"      : "Baron Mordo",
+        "image"     : "cards/baron-mordo.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Your opponent draws a card. Set it's cost to 6."
+    },
+    {
+        "id"        : "Bast",
+        "name"      : "Bast",
+        "image"     : "cards/bast.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Set the Power of all cards in your hand to 3."
+    },
+    {
+        "id"        : "Beast",
+        "name"      : "Beast",
+        "image"     : "cards/beast.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Return your other cards at this location to your hand. They cost 1 less."
+    },
+    {
+        "id"        : "Bishop",
+        "name"      : "Bishop",
+        "image"     : "cards/bishop.png",
+        "cost"      : 3,
+        "power"     : 1,
+        "activate"  : "always",
+        "ability"   : "When you play a card, this gains +1 Power."
+    },
+    {
+        "id"        : "BlackBolt",
+        "name"      : "Black Bolt",
+        "image"     : "cards/black-bolt.png",
+        "cost"      : 5,
+        "power"     : 8,
+        "activate"  : "reveal",
+        "ability"   : "Your opponent must discard the lowest-Cost card in their hand."
+    },
+    {
+        "id"        : "BlackCat",
+        "name"      : "Black Cat",
+        "image"     : "cards/black-cat.png",
+        "cost"      : 3,
+        "power"     : 6,
+        "activate"  : "always",
+        "ability"   : "If this is in your hand at the end of your turn, discard it."
+    },
+    {
+        "id"        : "BlackKnight",
+        "name"      : "Black Knight",
+        "image"     : "cards/black-knight.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "destroy",
+        "ability"   : "When this is destroyed, draw a card."
+    },
+    {
+        "id"        : "BlackPanther",
+        "name"      : "Black Panther",
+        "image"     : "cards/black-panther.png",
+        "cost"      : 5,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "Double this card's Power."
+    },
+    {
+        "id"        : "BlackWidow",
+        "name"      : "Black Widow",
+        "image"     : "cards/black-widow.png",
+        "cost"      : 2,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Add a Widow's Bite to your opponent's hand."
+    },
+    {
+        "id"        : "Blade",
+        "name"      : "Blade",
+        "image"     : "cards/blade.png",
+        "cost"      : 1,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Discard a card from your hand."
+    },
+    {
+        "id"        : "Blink",
+        "name"      : "Blink",
+        "image"     : "cards/blink.png",
+        "cost"      : 3,
+        "power"     : 1,
+        "activate"  : "onmove",
+        "ability"   : "You can move this each turn. When it moves, +1 Power."
+    },
+    {
+        "id"        : "Blob",
+        "name"      : "Blob",
+        "image"     : "cards/blob.png",
+        "cost"      : 3,
+        "power"     : 4,
+        "activate"  : "ongoing",
+        "ability"   : "Nothing can move this to another location."
+    },
+    {
+        "id"        : "BlueMarvel",
+        "name"      : "Blue Marvel",
+        "image"     : "cards/blue-marvel.png",
+        "cost"      : 5,
+        "power"     : 3,
+        "activate"  : "ongoing",
+        "ability"   : "Your other cards have +1 Power."
+    },
+    {
+        "id"        : "Brood",
+        "name"      : "Brood",
+        "image"     : "cards/brood.png",
+        "cost"      : 3,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Add 2 Broodlings to this location with the same Power."
+    },
+    {
+        "id"        : "Broodling",
+        "name"      : "Broodling",
+        "image"     : "cards/broodling.png",
+        "cost"      : 3,
+        "power"     : 2,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "BuckyBarnes",
+        "name"      : "Bucky Barnes",
+        "image"     : "cards/bucky-barnes.png",
+        "cost"      : 2,
+        "power"     : 1,
+        "activate"  : "destroy",
+        "ability"   : "When this is destroyed, create the Winter Soldier in its place."
+    },
+    {
+        "id"        : "Bullseye",
+        "name"      : "Bullseye",
+        "image"     : "cards/bullseye.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "The next card you draw will be a 2-Cost card. (if any are left)"
+    },
+    {
+        "id"        : "Cable",
+        "name"      : "Cable",
+        "image"     : "cards/cable.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Put the bottom card of your opponent's deck into your hand."
+    },
+    {
+        "id"        : "CaptainAmerica",
+        "name"      : "Captain America",
+        "image"     : "cards/captain-america.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "ongoing",
+        "ability"   : "Your other cards at this location have +1 Power."
+    },
+    {
+        "id"        : "CaptainMarvel",
+        "name"      : "Captain Marvel",
+        "image"     : "cards/captain-marvel.png",
+        "cost"      : 5,
+        "power"     : 6,
+        "activate"  : "always",
+        "ability"   : "At the end of the game, move to a location that wins you the game. (If possible)"
+    },
+    {
+        "id"        : "Carnage",
+        "name"      : "Carnage",
+        "image"     : "cards/carnage.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Destroy your other cards here. +2 Power for each destroyed."
+    },
+    {
+        "id"        : "Cerebro",
+        "name"      : "Cerebro",
+        "image"     : "cards/cerebro.png",
+        "cost"      : 3,
+        "power"     : 0,
+        "activate"  : "ongoing",
+        "ability"   : "Your highest Power cards get +2 Power."
+    },
+    {
+        "id"        : "Cloak",
+        "name"      : "Cloak",
+        "image"     : "cards/cloak.png",
+        "cost"      : 2,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "Next turn, both players can move cards to this location."
+    },
+    {
+        "id"        : "ColleenWing",
+        "name"      : "Colleen Wing",
+        "image"     : "cards/colleen-wing.png",
+        "cost"      : 2,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "Discard the lowest-cost card from your hand."
+    },
+    {
+        "id"        : "Colossus",
+        "name"      : "Colossus",
+        "image"     : "cards/colossus.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "ongoing",
+        "ability"   : "Can't be destroyed, moved, or have its Power reduced."
+    },
+    {
+        "id"        : "Cosmo",
+        "name"      : "Cosmo",
+        "image"     : "cards/cosmo.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "ongoing",
+        "ability"   : "On Reveal abilities won't happen at this location."
+    },
+    {
+        "id"        : "Crossbones",
+        "name"      : "Crossbones",
+        "image"     : "cards/crossbones.png",
+        "cost"      : 4,
+        "power"     : 8,
+        "activate"  : "always",
+        "ability"   : "You can only play this at locations where you are winning."
+    },
+    {
+        "id"        : "Crystal",
+        "name"      : "Crystal",
+        "image"     : "cards/crystal.png",
+        "cost"      : 4,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "If this is at the middle location, shuffle your hand into your deck and draw 3 cards."
+    },
+    {
+        "id"        : "Cyclops",
+        "name"      : "Cyclops",
+        "image"     : "cards/cyclops.png",
+        "cost"      : 3,
+        "power"     : 4,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "Dagger",
+        "name"      : "Dagger",
+        "image"     : "cards/dagger.png",
+        "cost"      : 2,
+        "power"     : 1,
+        "activate"  : "onmove",
+        "ability"   : "When this moves to a location, +2 Power for each card your opponent has there."
+    },
+    {
+        "id"        : "Daredevil",
+        "name"      : "Daredevil",
+        "image"     : "cards/daredevil.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "always",
+        "ability"   : "On turn 5, you get to see your opponent's plays before you make your own."
+    },
+    {
+        "id"        : "Darkhawk",
+        "name"      : "Darkhawk",
+        "image"     : "cards/darkhawk.png",
+        "cost"      : 1,
+        "power"     : 3,
+        "activate"  : "always",
+        "ability"   : "You can only play this at locations where you already have a card."
+    },
+    {
+        "id"        : "Dazzler",
+        "name"      : "Dazzler",
+        "image"     : "cards/dazzler.png",
+        "cost"      : 4,
+        "power"     : 4,
+        "activate"  : "ongoing",
+        "ability"   : "If you have 4 cards at each location, +8 Power."
+    },
+    {
+        "id"        : "Deadpool",
+        "name"      : "Deadpool",
+        "image"     : "cards/deadpool.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "destroy",
+        "ability"   : "When this is destroyed, return it to your hand with double the Power."
+    },
+    {
+        "id"        : "Death",
+        "name"      : "Death",
+        "image"     : "cards/death.png",
+        "cost"      : 9,
+        "power"     : 12,
+        "activate"  : "always",
+        "ability"   : "Costs 1 less for each card destroyed this game."
+    },
+    {
+        "id"        : "Deathlok",
+        "name"      : "Deathlok",
+        "image"     : "cards/deathlok.png",
+        "cost"      : 3,
+        "power"     : 5,
+        "activate"  : "reveal",
+        "ability"   : "Destroy your other cards at this location."
+    },
+    {
+        "id"        : "Debrii",
+        "name"      : "Debrii",
+        "image"     : "cards/debrii.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Add a Rock to each other location, for both players."
+    },
+    {
+        "id"        : "Demon",
+        "name"      : "Demon",
+        "image"     : "cards/demon.png",
+        "cost"      : 1,
+        "power"     : 6,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "Destroyer",
+        "name"      : "Destroyer",
+        "image"     : "cards/destroyer.png",
+        "cost"      : 6,
+        "power"     : 16,
+        "activate"  : "reveal",
+        "ability"   : "Destroy your other cards."
+    },
+    {
+        "id"        : "DevilDinosaur",
+        "name"      : "Devil Dinosaur",
+        "image"     : "cards/devil-dinosaur.png",
+        "cost"      : 5,
+        "power"     : 3,
+        "activate"  : "ongoing",
+        "ability"   : "+2 Power for each card in your hand."
+    },
+    {
+        "id"        : "DoctorDoom",
+        "name"      : "Doctor Doom",
+        "image"     : "cards/doctor-doom.png",
+        "cost"      : 6,
+        "power"     : 5,
+        "activate"  : "reveal",
+        "ability"   : "Add a 5-Power Doombot to each other location."
+    },
+    {
+        "id"        : "DoctorOctopus",
+        "name"      : "Doctor Octopus",
+        "image"     : "cards/doctor-octopus.png",
+        "cost"      : 5,
+        "power"     : 10,
+        "activate"  : "reveal",
+        "ability"   : "Pull 4 random cards from your opponent's hand to their side of this location."
+    },
+    {
+        "id"        : "DoctorStrange",
+        "name"      : "Doctor Strange",
+        "image"     : "cards/doctor-strange.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Move your highest Power cards to this location."
+    },
+    {
+        "id"        : "Domino",
+        "name"      : "Domino",
+        "image"     : "cards/domino.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "always",
+        "ability"   : "You always draw this card on turn 2, and not before."
+    },
+    {
+        "id"        : "Doombot",
+        "name"      : "Doombot",
+        "image"     : "cards/doombot.png",
+        "cost"      : 6,
+        "power"     : 5,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "Dracula",
+        "name"      : "Dracula",
+        "image"     : "cards/dracula.png",
+        "cost"      : 4,
+        "power"     : 0,
+        "activate"  : "always",
+        "ability"   : "After the final turn, discard a card from your hand. This has its Power."
+    },
+    {
+        "id"        : "Drax",
+        "name"      : "Drax",
+        "image"     : "cards/drax.png",
+        "cost"      : 4,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "If your opponent played a card here this turn, +4 Power."
+    },
+    {
+        "id"        : "Drone",
+        "name"      : "Drone",
+        "image"     : "cards/drone.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "EbonyMaw",
+        "name"      : "Ebony Maw",
+        "image"     : "cards/ebony-maw.png",
+        "cost"      : 1,
+        "power"     : 7,
+        "activate"  : "ongoing",
+        "ability"   : "You can't play cards here. You can't play this after turn 3."
+    },
+    {
+        "id"        : "Electro",
+        "name"      : "Electro",
+        "image"     : "cards/electro.png",
+        "cost"      : 3,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "+1 Max Energy. Ongoing: You can only play 1 card a turn."
+    },
+    {
+        "id"        : "Elektra",
+        "name"      : "Elektra",
+        "image"     : "cards/elektra.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Destroy a random enemy 1-Cost card at this location."
+    },
+    {
+        "id"        : "ElsaBloodstone",
+        "name"      : "Elsa Bloodstone",
+        "image"     : "cards/elsa-bloodstone.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "always",
+        "ability"   : "At the end of each turn, if you are winning this location, +1 Power."
+    },
+    {
+        "id"        : "Enchantress",
+        "name"      : "Enchantress",
+        "image"     : "cards/enchantress.png",
+        "cost"      : 4,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "Remove the abilities from all Ongoing cards at this location."
+    },
+    {
+        "id"        : "Falcon",
+        "name"      : "Falcon",
+        "image"     : "cards/falcon.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Return your 1-Cost cards to your hand."
+    },
+    {
+        "id"        : "Flatman",
+        "name"      : "Flatman",
+        "image"     : "cards/flatman.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "ongoing",
+        "ability"   : "Adjacent locations have +1 Power."
+    },
+    {
+        "id"        : "Forge",
+        "name"      : "Forge",
+        "image"     : "cards/forge.png",
+        "cost"      : 2,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Give the next card you play +2 Power."
+    },
+    {
+        "id"        : "Galactus",
+        "name"      : "Galactus",
+        "image"     : "cards/galactus.png",
+        "cost"      : 6,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "If this is your only card here, destroy all other locations."
+    },
+    {
+        "id"        : "Gambit",
+        "name"      : "Gambit",
+        "image"     : "cards/gambit.png",
+        "cost"      : 3,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Discard a card from your hand. Destroy a random enemy card."
+    },
+    {
+        "id"        : "Gamora",
+        "name"      : "Gamora",
+        "image"     : "cards/gamora.png",
+        "cost"      : 5,
+        "power"     : 7,
+        "activate"  : "reveal",
+        "ability"   : "If your opponent played a card here this turn, +5 Power."
+    },
+    {
+        "id"        : "GhostRider",
+        "name"      : "Ghost Rider",
+        "image"     : "cards/ghost-rider.png",
+        "cost"      : 4,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Bring back one of your discarded cards to this location."
+    },
+    {
+        "id"        : "GhostSpider",
+        "name"      : "Ghost-Spider",
+        "image"     : "cards/ghost-spider.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Move the last card you played here."
+    },
+    {
+        "id"        : "Giganto",
+        "name"      : "Giganto",
+        "image"     : "cards/giganto.png",
+        "cost"      : 6,
+        "power"     : 14,
+        "activate"  : "always",
+        "ability"   : "You can only play this at the left location."
+    },
+    {
+        "id"        : "GoblinQueen",
+        "name"      : "Goblin Queen",
+        "image"     : "cards/goblin-queen.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "On Reveal: Other cards can’t be revealed this turn."
+    },
+    {
+        "id"        : "Goose",
+        "name"      : "Goose",
+        "image"     : "cards/goose.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "ongoing",
+        "ability"   : "Nobody can play cards that cost 4, 5, or 6 at this location."
+    },
+    {
+        "id"        : "GreenGoblin",
+        "name"      : "Green Goblin",
+        "image"     : "cards/green-goblin.png",
+        "cost"      : 3,
+        "power"     : -3,
+        "activate"  : "reveal",
+        "ability"   : "Your opponent gains control of this."
+    },
+    {
+        "id"        : "Groot",
+        "name"      : "Groot",
+        "image"     : "cards/groot.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "If your opponent played a card here this turn, +3 Power."
+    },
+    {
+        "id"        : "Gwenpool",
+        "name"      : "Gwenpool",
+        "image"     : "cards/gwenpool.png",
+        "cost"      : 2,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Double this card Power."
+    },
+    {
+        "id"        : "Hawkeye",
+        "name"      : "Hawkeye",
+        "image"     : "cards/hawkeye.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "If you play a card here next turn, +2 Power."
+    },
+    {
+        "id"        : "Hazmat",
+        "name"      : "Hazmat",
+        "image"     : "cards/hazmat.png",
+        "cost"      : 2,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Give all other cards -1 Power."
+    },
+    {
+        "id"        : "Heimdall",
+        "name"      : "Heimdall",
+        "image"     : "cards/heimdall.png",
+        "cost"      : 6,
+        "power"     : 8,
+        "activate"  : "reveal",
+        "ability"   : "Move your other cards one location to the left."
+    },
+    {
+        "id"        : "Hela",
+        "name"      : "Hela",
+        "image"     : "cards/hela.png",
+        "cost"      : 6,
+        "power"     : 6,
+        "activate"  : "reveal",
+        "ability"   : "Play all cards you discarded from your hand to random locations."
+    },
+    {
+        "id"        : "Helicarrier",
+        "name"      : "Helicarrier",
+        "image"     : "cards/helicarrier.png",
+        "cost"      : 6,
+        "power"     : 10,
+        "activate"  : "discard",
+        "ability"   : "When you discard this from your hand, add 3 random cards."
+    },
+    {
+        "id"        : "Hellcow",
+        "name"      : "Hellcow",
+        "image"     : "cards/hellcow.png",
+        "cost"      : 4,
+        "power"     : 6,
+        "activate"  : "reveal",
+        "ability"   : "Discard 2 cards from your hand."
+    },
+    {
+        "id"        : "HitMonkey",
+        "name"      : "Hit Monkey",
+        "image"     : "cards/hit-monkey.png",
+        "cost"      : 2,
+        "power"     : 0,
+        "activate"  : "reveal",
+        "ability"   : "Gain +3 Power for each other card you played this turn."
+    },
+    {
+        "id"        : "Hobgoblin",
+        "name"      : "Hobgoblin",
+        "image"     : "cards/hobgoblin.png",
+        "cost"      : 5,
+        "power"     : -8,
+        "activate"  : "reveal",
+        "ability"   : "Your opponent gains control of this."
+    },
+    {
+        "id"        : "Hulk",
+        "name"      : "Hulk",
+        "image"     : "cards/hulk.png",
+        "cost"      : 6,
+        "power"     : 12,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "HulkBuster",
+        "name"      : "Hulk Buster",
+        "image"     : "cards/hulk-buster.png",
+        "cost"      : 3,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "Merge this card with a random friendly card at this location."
+    },
+    {
+        "id"        : "HumanTorch",
+        "name"      : "Human Torch",
+        "image"     : "cards/human-torch.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "onmove",
+        "ability"   : "When this moves, double its Power."
+    },
+    {
+        "id"        : "Iceman",
+        "name"      : "Iceman",
+        "image"     : "cards/iceman.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Give a random card in your opponent's hand +1 Cost. (maximum 6)"
+    },
+    {
+        "id"        : "Illusion",
+        "name"      : "Illusion",
+        "image"     : "cards/illusion.png",
+        "cost"      : 2,
+        "power"     : 0,
+        "activate"  : "reveal",
+        "ability"   : "Give a random card in your opponent's hand +1 Cost. (maximum 6)"
+    },
+    {
+        "id"        : "InvisibleWoman",
+        "name"      : "Invisible Woman",
+        "image"     : "cards/invisible-woman.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "ongoing",
+        "ability"   : "Cards you play here are not revealed until the game ends."
+    },
+    {
+        "id"        : "IronFist",
+        "name"      : "Iron Fist",
+        "image"     : "cards/iron-fist.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Move the next card you play one location to the left after it reveals."
+    },
+    {
+        "id"        : "Ironheart",
+        "name"      : "Ironheart",
+        "image"     : "cards/ironheart.png",
+        "cost"      : 3,
+        "power"     : 0,
+        "activate"  : "reveal",
+        "ability"   : "Give 3 other cards +2 Power."
+    },
+    {
+        "id"        : "IronMan",
+        "name"      : "Iron Man",
+        "image"     : "cards/iron-man.png",
+        "cost"      : 5,
+        "power"     : 0,
+        "activate"  : "ongoing",
+        "ability"   : "Your total Power is doubled at this location."
+    },
+    {
+        "id"        : "JaneFoster",
+        "name"      : "Jane Foster Mighty Thor",
+        "image"     : "cards/jane-foster.png",
+        "cost"      : 5,
+        "power"     : 8,
+        "activate"  : "reveal",
+        "ability"   : "Draw all cards that Cost 0 from your deck."
+    },
+    {
+        "id"        : "JeanGrey",
+        "name"      : "Jean Grey",
+        "image"     : "cards/jean-grey.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "The next card your opponent plays must be played here, if possible."
+    },
+    {
+        "id"        : "JessicaJones",
+        "name"      : "Jessica Jones",
+        "image"     : "cards/jessica-jones.png",
+        "cost"      : 4,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "If you don't play a card here next turn, +4 Power."
+    },
+    {
+        "id"        : "Jubilee",
+        "name"      : "Jubilee",
+        "image"     : "cards/jubilee.png",
+        "cost"      : 4,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Play a card from your deck at this location."
+    },
+    {
+        "id"        : "Juggernaut",
+        "name"      : "Juggernaut",
+        "image"     : "cards/juggernaut.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "If your opponent played cards here this turn, move them randomly."
+    },
+    {
+        "id"        : "Kang",
+        "name"      : "Kang",
+        "image"     : "cards/kang.png",
+        "cost"      : 5,
+        "power"     : 0,
+        "activate"  : "reveal",
+        "ability"   : "Look at what your opponent did, then restart the turn. (without Kang)"
+    },
+    {
+        "id"        : "KaZar",
+        "name"      : "Ka-Zar",
+        "image"     : "cards/ka-zar.png",
+        "cost"      : 4,
+        "power"     : 4,
+        "activate"  : "ongoing",
+        "ability"   : "Your 1-Cost cards have +1 Power."
+    },
+    {
+        "id"        : "Killmonger",
+        "name"      : "Killmonger",
+        "image"     : "cards/killmonger.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Destroy ALL 1-Cost cards."
+    },
+    {
+        "id"        : "KingEitri",
+        "name"      : "King Eitri",
+        "image"     : "cards/king-eitri.png",
+        "cost"      : 5,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Give the next card you play +4 Power."
+    },
+    {
+        "id"        : "Kingpin",
+        "name"      : "Kingpin",
+        "image"     : "cards/kingpin.png",
+        "cost"      : 3,
+        "power"     : 4,
+        "activate"  : "always",
+        "ability"   : "When a card moves here on turn 6, destroy it."
+    },
+    {
+        "id"        : "KittyPryde",
+        "name"      : "Kitty Pryde",
+        "image"     : "cards/kitty-pryde.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "always",
+        "ability"   : "You can pull this back to your hand at any time."
+    },
+    {
+        "id"        : "Klaw",
+        "name"      : "Klaw",
+        "image"     : "cards/klaw.png",
+        "cost"      : 5,
+        "power"     : 4,
+        "activate"  : "ongoing",
+        "ability"   : "The location to the right has +6 Power."
+    },
+    {
+        "id"        : "Korg",
+        "name"      : "Korg",
+        "image"     : "cards/korg.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Shuffle a Rock into your opponent's deck."
+    },
+    {
+        "id"        : "Kraven",
+        "name"      : "Kraven",
+        "image"     : "cards/kraven.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "always",
+        "ability"   : "When a card moves here, this gets +2 Power."
+    },
+    {
+        "id"        : "LadyDeathstrike",
+        "name"      : "Lady Deathstrike",
+        "image"     : "cards/lady-deathstrike.png",
+        "cost"      : 6,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "Destroy the enemy card with the highest Power at this location."
+    },
+    {
+        "id"        : "LadySif",
+        "name"      : "Lady Sif",
+        "image"     : "cards/lady-sif.png",
+        "cost"      : 2,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "Discard the highest-cost card from your hand."
+    },
+    {
+        "id"        : "Leader",
+        "name"      : "Leader",
+        "image"     : "cards/leader.png",
+        "cost"      : 6,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "Copy all cards your opponent played this turn, but on your side."
+    },
+    {
+        "id"        : "Leech",
+        "name"      : "Leech",
+        "image"     : "cards/leech.png",
+        "cost"      : 5,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Remove the abilities from all cards in your opponent's hand."
+    },
+    {
+        "id"        : "Legion",
+        "name"      : "Legion",
+        "image"     : "cards/legion.png",
+        "cost"      : 5,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "Change other locations into this location."
+    },
+    {
+        "id"        : "Lizard",
+        "name"      : "Lizard",
+        "image"     : "cards/lizard.png",
+        "cost"      : 2,
+        "power"     : 5,
+        "activate"  : "ongoing",
+        "ability"   : "-3 Power if your opponent has 4 cards here."
+    },
+    {
+        "id"        : "Lockjaw",
+        "name"      : "Lockjaw",
+        "image"     : "cards/lockjaw.png",
+        "cost"      : 3,
+        "power"     : 2,
+        "activate"  : "always",
+        "ability"   : "When you play a card here, swap it with a card in your deck."
+    },
+    {
+        "id"        : "LukeCage",
+        "name"      : "Luke Cage",
+        "image"     : "cards/luke-cage.png",
+        "cost"      : 2,
+        "power"     : 1,
+        "activate"  : "ongoing",
+        "ability"   : "Your cards can't have their Power reduced."
+    },
+    {
+        "id"        : "Magik",
+        "name"      : "Magik",
+        "image"     : "cards/magik.png",
+        "cost"      : 5,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Change this location to Limbo. You can't play this on turn 6."
+    },
+    {
+        "id"        : "Magneto",
+        "name"      : "Magneto",
+        "image"     : "cards/magneto.png",
+        "cost"      : 6,
+        "power"     : 12,
+        "activate"  : "reveal",
+        "ability"   : "Move all opposing 3 and 4-Cost cards to this location."
+    },
+    {
+        "id"        : "Makkari",
+        "name"      : "Makkari",
+        "image"     : "cards/makkari.png",
+        "cost"      : 0,
+        "power"     : 2,
+        "activate"  : "always",
+        "ability"   : "When you draw this, place it at a random location."
+    },
+    {
+        "id"        : "Mantis",
+        "name"      : "Mantis",
+        "image"     : "cards/mantis.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "If your opponent played a card here this turn, draw a card from their deck."
+    },
+    {
+        "id"        : "MariaHill",
+        "name"      : "Maria Hill",
+        "image"     : "cards/maria-hill.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Add a random 1-Cost card to your hand."
+    },
+    {
+        "id"        : "MasterMold",
+        "name"      : "Master Mold",
+        "image"     : "cards/master-mold.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Add 3 Sentinel to your opponent hand."
+    },
+    {
+        "id"        : "Maximus",
+        "name"      : "Maximus",
+        "image"     : "cards/maximus.png",
+        "cost"      : 3,
+        "power"     : 7,
+        "activate"  : "reveal",
+        "ability"   : "Your opponent draws 2 cards."
+    },
+    {
+        "id"        : "MBaku",
+        "name"      : "M'Baku",
+        "image"     : "cards/mbaku.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "always",
+        "ability"   : "If this is in your deck after the final turn, it jumps to a random location."
+    },
+    {
+        "id"        : "Medusa",
+        "name"      : "Medusa",
+        "image"     : "cards/medusa.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "If this is at the middle location, +2 Power."
+    },
+    {
+        "id"        : "Mephisto",
+        "name"      : "Mephisto",
+        "image"     : "cards/mephisto.png",
+        "cost"      : 6,
+        "power"     : 0,
+        "activate"  : "always",
+        "ability"   : "If you win this game, double your winnings."
+    },
+    {
+        "id"        : "MilesMorales",
+        "name"      : "Spider-Man (Miles Morales)",
+        "image"     : "cards/miles-morales.png",
+        "cost"      : 4,
+        "power"     : 5,
+        "activate"  : "always",
+        "ability"   : "If a card moved last turn, this costs 1."
+    },
+    {
+        "id"        : "MindStone",
+        "name"      : "Mind Stone",
+        "image"     : "cards/mind-stone.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "On Reveal: Draw 2 Stones from your deck."
+    },
+    {
+        "id"        : "Mirage",
+        "name"      : "Mirage",
+        "image"     : "cards/mirage.png",
+        "cost"      : 4,
+        "power"     : 5,
+        "activate"  : "always",
+        "ability"   : "As you play this, disguise it as Mister Fantastic. After the final turn, reveal it."
+    },
+    {
+        "id"        : "MrFantastic",
+        "name"      : "Mister Fantastic",
+        "image"     : "cards/mister-fantastic.png",
+        "cost"      : 3,
+        "power"     : 2,
+        "activate"  : "ongoing",
+        "ability"   : "Adjacent locations have +2 Power."
+    },
+    {
+        "id"        : "MisterNegative",
+        "name"      : "Mister Negative",
+        "image"     : "cards/mister-negative.png",
+        "cost"      : 4,
+        "power"     : -1,
+        "activate"  : "reveal",
+        "ability"   : "Swap the Power and Cost of all cards in your deck."
+    },
+    {
+        "id"        : "MisterSinister",
+        "name"      : "Mister Sinister",
+        "image"     : "cards/mister-sinister.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Add a Sinister Clone to this location with the same Power."
+    },
+    {
+        "id"        : "MistyKnight",
+        "name"      : "Misty Knight",
+        "image"     : "cards/misty-knight.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "Mjolnir",
+        "name"      : "Mjölnir ",
+        "image"     : "cards/mjolnir.png",
+        "cost"      : 0,
+        "power"     : 0,
+        "activate"  : "reveal",
+        "ability"   : "Give Thor +6 Power."
+    },
+    {
+        "id"        : "MODOK",
+        "name"      : "MODOK",
+        "image"     : "cards/modok.png",
+        "cost"      : 5,
+        "power"     : 8,
+        "activate"  : "reveal",
+        "ability"   : "Discard your hand."
+    },
+    {
+        "id"        : "Mojo",
+        "name"      : "Mojo",
+        "image"     : "cards/mojo.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "ongoing",
+        "ability"   : "If both players have 4 cards at this location, +6 Power."
+    },
+    {
+        "id"        : "Monster",
+        "name"      : "Monster",
+        "image"     : "cards/monster.png",
+        "cost"      : 6,
+        "power"     : 9,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "MoonGirl",
+        "name"      : "Moon Girl",
+        "image"     : "cards/moon-girl.png",
+        "cost"      : 4,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "Duplicate your hand."
+    },
+    {
+        "id"        : "MoonKnight",
+        "name"      : "Moon Knight",
+        "image"     : "cards/moon-knight.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Discard a card from each player's hand."
+    },
+    {
+        "id"        : "Morbius",
+        "name"      : "Morbius",
+        "image"     : "cards/morbius.png",
+        "cost"      : 2,
+        "power"     : 0,
+        "activate"  : "ongoing",
+        "ability"   : "+2 Power for each time you discarded a card this game."
+    },
+    {
+        "id"        : "Morph",
+        "name"      : "Morph",
+        "image"     : "cards/morph.png",
+        "cost"      : 3,
+        "power"     : 0,
+        "activate"  : "reveal",
+        "ability"   : "Become a copy of a random card in your opponent's hand."
+    },
+    {
+        "id"        : "MsMarvel",
+        "name"      : "Ms Marvel",
+        "image"     : "cards/ms-marvel.png",
+        "cost"      : 3,
+        "power"     : 4,
+        "activate"  : "ongoing",
+        "ability"   : "If this is your only card here, adjacent locations have +5 Power."
+    },
+    {
+        "id"        : "MultipleMan",
+        "name"      : "Multiple Man",
+        "image"     : "cards/multiple-man.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "onmove",
+        "ability"   : "When this moves, add a copy to the old location."
+    },
+    {
+        "id"        : "Mysterio",
+        "name"      : "Mysterio",
+        "image"     : "cards/mysterio.png",
+        "cost"      : 2,
+        "power"     : 5,
+        "activate"  : "always",
+        "ability"   : "As you play this, play Illusions to other locations. Disguise this as an Illusion until the game ends."
+    },
+    {
+        "id"        : "Mystique",
+        "name"      : "Mystique",
+        "image"     : "cards/mystique.png",
+        "cost"      : 3,
+        "power"     : 0,
+        "activate"  : "reveal",
+        "ability"   : "If the last card you played has an Ongoing ability, this card gains it."
+    },
+    {
+        "id"        : "Nakia",
+        "name"      : "Nakia",
+        "image"     : "cards/nakia.png",
+        "cost"      : 3,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Give the 2 leftmost cards in your hand +2 Power."
+    },
+    {
+        "id"        : "Namor",
+        "name"      : "Namor",
+        "image"     : "cards/namor.png",
+        "cost"      : 4,
+        "power"     : 5,
+        "activate"  : "ongoing",
+        "ability"   : "+5 Power if this is your only card here."
+    },
+    {
+        "id"        : "Nebula",
+        "name"      : "Nebula",
+        "image"     : "cards/nebula.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "If your opponent played a card here this turn, x2 Power and put this in your hand."
+    },
+    {
+        "id"        : "NegasonicTeenageWarhead",
+        "name"      : "Negasonic Teenage Warhead",
+        "image"     : "cards/negasonic-teenage-warhead.png",
+        "cost"      : 3,
+        "power"     : 2,
+        "activate"  : "always",
+        "ability"   : "When any card is played here, destroy this card AND that card."
+    },
+    {
+        "id"        : "NickFury",
+        "name"      : "Nick Fury",
+        "image"     : "cards/nick-fury.png",
+        "cost"      : 5,
+        "power"     : 7,
+        "activate"  : "reveal",
+        "ability"   : "Add 3 random 6-Cost cards to your hand."
+    },
+    {
+        "id"        : "Nightcrawler",
+        "name"      : "Nightcrawler",
+        "image"     : "cards/nightcrawler.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "always",
+        "ability"   : "You can move this once."
+    },
+    {
+        "id"        : "NightNurse",
+        "name"      : "Night Nurse",
+        "image"     : "cards/night-nurse.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Add all cards you discarded or destroyed last turn to your hand."
+    },
+    {
+        "id"        : "Ninja",
+        "name"      : "Ninja",
+        "image"     : "cards/ninja.png",
+        "cost"      : 1,
+        "power"     : -2,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "Nova",
+        "name"      : "Nova",
+        "image"     : "cards/nova.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "destroy",
+        "ability"   : "When this is destroyed, give your cards +1 Power."
+    },
+    {
+        "id"        : "Odin",
+        "name"      : "Odin",
+        "image"     : "cards/odin.png",
+        "cost"      : 6,
+        "power"     : 8,
+        "activate"  : "reveal",
+        "ability"   : "Activate the On Reveal abilities of your other cards at this location."
+    },
+    {
+        "id"        : "Okoye",
+        "name"      : "Okoye",
+        "image"     : "cards/okoye.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Give every card in your deck +1 Power."
+    },
+    {
+        "id"        : "OmegaRed",
+        "name"      : "Omega Red",
+        "image"     : "cards/omega-red.png",
+        "cost"      : 4,
+        "power"     : 5,
+        "activate"  : "ongoing",
+        "ability"   : "If you're ahead by 10 Power here, +4 Power to other locations."
+    },
+    {
+        "id"        : "Onslaught",
+        "name"      : "Onslaught",
+        "image"     : "cards/onslaught.png",
+        "cost"      : 6,
+        "power"     : 7,
+        "activate"  : "ongoing",
+        "ability"   : "Double your other Ongoing effects at this location."
+    },
+    {
+        "id"        : "Orka",
+        "name"      : "Orka",
+        "image"     : "cards/orka.png",
+        "cost"      : 6,
+        "power"     : 9,
+        "activate"  : "ongoing",
+        "ability"   : "+5 Power if this is your only card here."
+    },
+    {
+        "id"        : "Patriot",
+        "name"      : "Patriot",
+        "image"     : "cards/patriot.png",
+        "cost"      : 3,
+        "power"     : 1,
+        "activate"  : "ongoing",
+        "ability"   : "Your cards with no abilities have +2 Power."
+    },
+    {
+        "id"        : "PhoenixForce",
+        "name"      : "Phoenix Force",
+        "image"     : "cards/phoenix-force.png",
+        "cost"      : 6,
+        "power"     : 3,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "Polaris",
+        "name"      : "Polaris",
+        "image"     : "cards/polaris.png",
+        "cost"      : 3,
+        "power"     : 5,
+        "activate"  : "reveal",
+        "ability"   : "Move an opposing 1 or 2-Cost card to this location."
+    },
+    {
+        "id"        : "PowerStone",
+        "name"      : "Power Stone",
+        "image"     : "cards/power-stone.png",
+        "cost"      : 1,
+        "power"     : 3,
+        "activate"  : "ongoing",
+        "ability"   : "If you have played all 6 stones, Thanos has +10 Power. (wherever he is)"
+    },
+    {
+        "id"        : "ProfessorX",
+        "name"      : "Professor X",
+        "image"     : "cards/professor-x.png",
+        "cost"      : 5,
+        "power"     : 3,
+        "activate"  : "ongoing",
+        "ability"   : "Lock down this location. (Cards can't be added, removed, etc.)"
+    },
+    {
+        "id"        : "Psylocke",
+        "name"      : "Psylocke",
+        "image"     : "cards/psylocke.png",
+        "cost"      : 2,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Next turn, you get +1 Energy."
+    },
+    {
+        "id"        : "Quake",
+        "name"      : "Quake",
+        "image"     : "cards/quake.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "If this is at the middle location, swap the positions of each location."
+    },
+    {
+        "id"        : "Quicksilver",
+        "name"      : "Quicksilver",
+        "image"     : "cards/quicksilver.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "always",
+        "ability"   : "Starts in your opening hand."
+    },
+    {
+        "id"        : "Quinjet",
+        "name"      : "Quinjet",
+        "image"     : "cards/quinjet.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "ongoing",
+        "ability"   : "Cards that didn't start in your deck cost 1 less."
+    },
+    {
+        "id"        : "Random",
+        "name"      : "Random",
+        "image"     : "cards/random.png",
+        "cost"      : 4,
+        "power"     : 0,
+        "activate"  : "reveal",
+        "ability"   : "Set this card’s Power equal to the Power of a random card in your deck."
+    },
+    {
+        "id"        : "Raptor",
+        "name"      : "Raptor",
+        "image"     : "cards/raptor.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "RealityStone",
+        "name"      : "Reality Stone",
+        "image"     : "cards/reality-stone.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Transform this location into a new one. Draw a card."
+    },
+    {
+        "id"        : "RedGuardian",
+        "name"      : "Red Guardian",
+        "image"     : "cards/red-guardian.png",
+        "cost"      : 3,
+        "power"     : 6,
+        "activate"  : "reveal",
+        "ability"   : "You must play a card here next turn."
+    },
+    {
+        "id"        : "RedSkull",
+        "name"      : "Red Skull",
+        "image"     : "cards/red-skull.png",
+        "cost"      : 5,
+        "power"     : 15,
+        "activate"  : "ongoing",
+        "ability"   : "Enemy cards at this location have +2 Power."
+    },
+    {
+        "id"        : "Rescue",
+        "name"      : "Rescue",
+        "image"     : "cards/rescue.png",
+        "cost"      : 4,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "If you play a card here next turn, +5 Power."
+    },
+    {
+        "id"        : "Rhino",
+        "name"      : "Rhino",
+        "image"     : "cards/rhino.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Ruin this location. (remove its ability)"
+    },
+    {
+        "id"        : "Rock",
+        "name"      : "Rock",
+        "image"     : "cards/rock.png",
+        "cost"      : 1,
+        "power"     : 0,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "RocketRacoon",
+        "name"      : "Rocket Racoon",
+        "image"     : "cards/rocket-racoon.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "If your opponent played a card here this turn, +2 Power."
+    },
+    {
+        "id"        : "Rockslide",
+        "name"      : "Rockslide",
+        "image"     : "cards/rockslide.png",
+        "cost"      : 4,
+        "power"     : 6,
+        "activate"  : "reveal",
+        "ability"   : "Shuffle 2 Rocks into your opponent's deck."
+    },
+    {
+        "id"        : "Rogue",
+        "name"      : "Rogue",
+        "image"     : "cards/rogue.png",
+        "cost"      : 3,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Steal an Ongoing ability from a random enemy card at this location."
+    },
+    {
+        "id"        : "RonanTheAccuser",
+        "name"      : "Ronan The Accuser",
+        "image"     : "cards/ronan-the-accuser.png",
+        "cost"      : 5,
+        "power"     : 3,
+        "activate"  : "ongoing",
+        "ability"   : "+2 Power for each card in your opponent's hand."
+    },
+    {
+        "id"        : "Sabretooth",
+        "name"      : "Sabretooth",
+        "image"     : "cards/sabretooth.png",
+        "cost"      : 3,
+        "power"     : 4,
+        "activate"  : "destroy",
+        "ability"   : "When this is destroyed, return it to your hand. It costs 0."
+    },
+    {
+        "id"        : "Sandman",
+        "name"      : "Sandman",
+        "image"     : "cards/sandman.png",
+        "cost"      : 4,
+        "power"     : 1,
+        "activate"  : "ongoing",
+        "ability"   : "Players can only play 1 card a turn."
+    },
+    {
+        "id"        : "Sauron",
+        "name"      : "Sauron",
+        "image"     : "cards/sauron.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Remove the Ongoing abilities from all cards in your hand and deck."
+    },
+    {
+        "id"        : "ScarletWitch",
+        "name"      : "Scarlet Witch",
+        "image"     : "cards/scarlet-witch.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Replace this location with a random new one."
+    },
+    {
+        "id"        : "Scorpion",
+        "name"      : "Scorpion",
+        "image"     : "cards/scorpion.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Afflict cards in your opponent's hand with -1 Power."
+    },
+    {
+        "id"        : "Sentinel",
+        "name"      : "Sentinel",
+        "image"     : "cards/sentinel.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Add another Sentinel to your hand."
+    },
+    {
+        "id"        : "Sentry",
+        "name"      : "The Sentry",
+        "image"     : "cards/sentry.png",
+        "cost"      : 4,
+        "power"     : 10,
+        "activate"  : "reveal",
+        "ability"   : "Add The Void (7-Power) to your opponent's side of this location."
+    },
+    {
+        "id"        : "Sera",
+        "name"      : "Sera",
+        "image"     : "cards/sera.png",
+        "cost"      : 5,
+        "power"     : 5,
+        "activate"  : "ongoing",
+        "ability"   : "Cards in your hand cost 1 less. (minimum 1)"
+    },
+    {
+        "id"        : "ShadowKing",
+        "name"      : "Shadow King",
+        "image"     : "cards/shadow-king.png",
+        "cost"      : 6,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "Destroy all other cards that have 2 or less Power."
+    },
+    {
+        "id"        : "ShangChi",
+        "name"      : "Shang-Chi",
+        "image"     : "cards/shang-chi.png",
+        "cost"      : 4,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Destroy all enemy cards at this location that have 9 or more Power."
+    },
+    {
+        "id"        : "Shanna",
+        "name"      : "Shanna the She-Devil",
+        "image"     : "cards/shanna.png",
+        "cost"      : 3,
+        "power"     : 4,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "SheHulk",
+        "name"      : "She-Hulk",
+        "image"     : "cards/she-hulk.png",
+        "cost"      : 6,
+        "power"     : 10,
+        "activate"  : "always",
+        "ability"   : "Costs 1 less for each unspent Energy last turn."
+    },
+    {
+        "id"        : "Shocker",
+        "name"      : "Shocker",
+        "image"     : "cards/shocker.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "Shuri",
+        "name"      : "Shuri",
+        "image"     : "cards/shuri.png",
+        "cost"      : 4,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Double the Power of the next card you play."
+    },
+    {
+        "id"        : "Silk",
+        "name"      : "Silk",
+        "image"     : "cards/silk.png",
+        "cost"      : 2,
+        "power"     : 5,
+        "activate"  : "always",
+        "ability"   : "When anyone plays a card here, move this to another location."
+    },
+    {
+        "id"        : "SilverSable",
+        "name"      : "Silver Sable",
+        "image"     : "cards/silver-sable.png",
+        "cost"      : 2,
+        "power"     : 6,
+        "activate"  : "always",
+        "ability"   : "You can only play this at a location where you have 6+ total Power."
+    },
+    {
+        "id"        : "SilverSamurai",
+        "name"      : "Silver Samurai",
+        "image"     : "cards/silver-samurai.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "discard",
+        "ability"   : "When this is discarded from your hand, draw a card."
+    },
+    {
+        "id"        : "SilverSurfer",
+        "name"      : "Silver Surfer",
+        "image"     : "cards/silver-surfer.png",
+        "cost"      : 4,
+        "power"     : 0,
+        "activate"  : "reveal",
+        "ability"   : "Double the power of ALL 6-cost cards. (wherever they are)"
+    },
+    {
+        "id"        : "SinisterClone",
+        "name"      : "Sinister Clone",
+        "image"     : "cards/sinister-clone.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "Snowguard",
+        "name"      : "Snowguard",
+        "image"     : "cards/snowguard.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "always",
+        "ability"   : "If you haven't played this by turn 3, transform into a random spirit animal."
+    },
+    {
+        "id"        : "SoulStone",
+        "name"      : "Soul Stone",
+        "image"     : "cards/soul-stone.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Draw a card. Ongoing: Enemy cards here have -1 Power."
+    },
+    {
+        "id"        : "SpaceStone",
+        "name"      : "Space Stone",
+        "image"     : "cards/space-stone.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Next turn you can move 1 card at this location. Draw a card."
+    },
+    {
+        "id"        : "Spectrum",
+        "name"      : "Spectrum",
+        "image"     : "cards/spectrum.png",
+        "cost"      : 6,
+        "power"     : 5,
+        "activate"  : "reveal",
+        "ability"   : "Give your Ongoing cards +2 Power."
+    },
+    {
+        "id"        : "SpiderMan",
+        "name"      : "Spider-Man",
+        "image"     : "cards/spider-man.png",
+        "cost"      : 4,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Your opponent can’t play cards at this location next turn."
+    },
+    {
+        "id"        : "SpiderWoman",
+        "name"      : "Spider-Woman",
+        "image"     : "cards/spider-woman.png",
+        "cost"      : 5,
+        "power"     : 7,
+        "activate"  : "reveal",
+        "ability"   : "Afflict all enemy cards here with -1 Power."
+    },
+    {
+        "id"        : "Squirrel",
+        "name"      : "Squirrel",
+        "image"     : "cards/squirrel.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "SquirrelGirl",
+        "name"      : "Squirrel Girl",
+        "image"     : "cards/squirrel-girl.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Add a 1-Power Squirrel to each other location."
+    },
+    {
+        "id"        : "StarLord",
+        "name"      : "Star Lord",
+        "image"     : "cards/star-lord.png",
+        "cost"      : 2,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "If your opponent played a card here this turn, +3 Power."
+    },
+    {
+        "id"        : "Storm",
+        "name"      : "Storm",
+        "image"     : "cards/storm.png",
+        "cost"      : 3,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Flood this location. Next turn is the last turn cards can be played here."
+    },
+    {
+        "id"        : "StrongGuy",
+        "name"      : "Strong Guy",
+        "image"     : "cards/strong-guy.png",
+        "cost"      : 4,
+        "power"     : 4,
+        "activate"  : "ongoing",
+        "ability"   : "If your hand is empty, +6 Power."
+    },
+    {
+        "id"        : "Stryfe",
+        "name"      : "Stryfe",
+        "image"     : "cards/stryfe.png",
+        "cost"      : 3,
+        "power"     : 7,
+        "activate"  : "always",
+        "ability"   : "If your opponent has 12+ Power here at the end of any turn, destroy this."
+    },
+    {
+        "id"        : "Sunspot",
+        "name"      : "Sunspot",
+        "image"     : "cards/sunspot.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "always",
+        "ability"   : "At the end of each turn, gain +1 Power for each unspent Energy."
+    },
+    {
+        "id"        : "SuperSkrull",
+        "name"      : "Super Skrull",
+        "image"     : "cards/super-skrull.png",
+        "cost"      : 4,
+        "power"     : 2,
+        "activate"  : "ongoing",
+        "ability"   : "Has the Ongoing effects of all enemy cards."
+    },
+    {
+        "id"        : "Surtur",
+        "name"      : "Surtur",
+        "image"     : "cards/surtur.png",
+        "cost"      : 5,
+        "power"     : 0,
+        "activate"  : "always",
+        "ability"   : "If you move the Human Torch to this location, +10 Power."
+    },
+    {
+        "id"        : "Swarm",
+        "name"      : "Swarm",
+        "image"     : "cards/swarm.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "discard",
+        "ability"   : "When this is discarded from your hand, add two copies that Cost 0 to your hand."
+    },
+    {
+        "id"        : "SwordMaster",
+        "name"      : "Sword Master",
+        "image"     : "cards/sword-master.png",
+        "cost"      : 3,
+        "power"     : 6,
+        "activate"  : "reveal",
+        "ability"   : "Discard a card from your hand."
+    },
+    {
+        "id"        : "Taskmaster",
+        "name"      : "Taskmaster",
+        "image"     : "cards/taskmaster.png",
+        "cost"      : 5,
+        "power"     : 10,
+        "activate"  : "reveal",
+        "ability"   : "Set this card's Power equal to the Power of the last card you played."
+    },
+    {
+        "id"        : "Thanos",
+        "name"      : "Thanos",
+        "image"     : "cards/thanos.png",
+        "cost"      : 6,
+        "power"     : 8,
+        "activate"  : "always",
+        "ability"   : "At the start of the game, shuffle the six Infinity Stones into your deck."
+    },
+    {
+        "id"        : "TheCollector",
+        "name"      : "The Collector",
+        "image"     : "cards/the-collector.png",
+        "cost"      : 2,
+        "power"     : 1,
+        "activate"  : "always",
+        "ability"   : "When a card enters your hand from anywhere (except your deck), +1 Power."
+    },
+    {
+        "id"        : "TheHood",
+        "name"      : "The Hood",
+        "image"     : "cards/the-hood.png",
+        "cost"      : 1,
+        "power"     : -2,
+        "activate"  : "reveal",
+        "ability"   : "Add a Demon to your hand."
+    },
+    {
+        "id"        : "Infinaut",
+        "name"      : "The Infinaut",
+        "image"     : "cards/the-infinaut.png",
+        "cost"      : 6,
+        "power"     : 20,
+        "activate"  : "always",
+        "ability"   : "If you played a card last turn, you can't play this."
+    },
+    {
+        "id"        : "TheLivingTribunal",
+        "name"      : "The Living Tribunal",
+        "image"     : "cards/the-living-tribunal.png",
+        "cost"      : 6,
+        "power"     : 4,
+        "activate"  : "always",
+        "ability"   : "At the end of the game, split your total Power evenly among all Locations."
+    },
+    {
+        "id"        : "Punisher",
+        "name"      : "The Punisher",
+        "image"     : "cards/the-punisher.png",
+        "cost"      : 3,
+        "power"     : 2,
+        "activate"  : "ongoing",
+        "ability"   : "+1 Power for each opposing card at this location."
+    },
+    {
+        "id"        : "TheThing",
+        "name"      : "The Thing",
+        "image"     : "cards/the-thing.png",
+        "cost"      : 4,
+        "power"     : 6,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "Thor",
+        "name"      : "Thor",
+        "image"     : "cards/thor.png",
+        "cost"      : 3,
+        "power"     : 4,
+        "activate"  : "reveal",
+        "ability"   : "Shuffle Mjölnir into your deck."
+    },
+    {
+        "id"        : "TigerSpirit",
+        "name"      : "Tiger Spirit",
+        "image"     : "cards/tiger-spirit.png",
+        "cost"      : 5,
+        "power"     : 7,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "TimeStone",
+        "name"      : "TimeStone",
+        "image"     : "cards/time-stone.png",
+        "cost"      : 1,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Draw a card. Next turn, you get +1 Energy."
+    },
+    {
+        "id"        : "Titania",
+        "name"      : "Titania",
+        "image"     : "cards/titania.png",
+        "cost"      : 1,
+        "power"     : 5,
+        "activate"  : "always",
+        "ability"   : "When ANY card is played at this location, this card switches sides."
+    },
+    {
+        "id"        : "Toad",
+        "name"      : "Toad",
+        "image"     : "cards/toad.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Move the last card you played to this location."
+    },
+    {
+        "id"        : "TyphoidMary",
+        "name"      : "Typhoid Mary",
+        "image"     : "cards/typhoid-mary.png",
+        "cost"      : 4,
+        "power"     : 10,
+        "activate"  : "ongoing",
+        "ability"   : "Your other cards have -1 Power."
+    },    
+    {
+        "id"        : "Uatu",
+        "name"      : "Uatu the Watcher",
+        "image"     : "cards/uatu-the-watcher.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "always",
+        "ability"   : "Once this is in your hand, you can see the unrevealed locations."
+    },
+    {
+        "id"        : "Ultron",
+        "name"      : "Ultron",
+        "image"     : "cards/ultron.png",
+        "cost"      : 6,
+        "power"     : 8,
+        "activate"  : "reveal",
+        "ability"   : "Create four 1-Power Drones at each other location."
+    },
+    {
+        "id"        : "UncleBen",
+        "name"      : "Uncle Ben",
+        "image"     : "cards/uncle-ben.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "destroy",
+        "ability"   : "When this card is destroyed, add Spider-Man to your hand."
+    },
+    {
+        "id"        : "Valkyrie",
+        "name"      : "Valkyrie",
+        "image"     : "cards/valkyrie.png",
+        "cost"      : 5,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Set ALL cards at this location to 3 Power."
+    },
+    {
+        "id"        : "Venom",
+        "name"      : "Venom",
+        "image"     : "cards/venom.png",
+        "cost"      : 3,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Destroy your other cards at this location. Add their Power to this card."
+    },
+    {
+        "id"        : "Viper",
+        "name"      : "Viper",
+        "image"     : "cards/viper.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Your opponent gains control of one of your other cards at this location."
+    },
+    {
+        "id"        : "Vision",
+        "name"      : "Vision",
+        "image"     : "cards/vision.png",
+        "cost"      : 5,
+        "power"     : 7,
+        "activate"  : "always",
+        "ability"   : "You can move this each turn."
+    },
+    {
+        "id"        : "VivVision",
+        "name"      : "Viv Vision",
+        "image"     : "cards/viv-vision.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "always",
+        "ability"   : "When you move a card to a location, move this card there as well."
+    },
+    {
+        "id"        : "Vulture",
+        "name"      : "Vulture",
+        "image"     : "cards/vulture.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "onmove",
+        "ability"   : "When this card moves, +5 Power."
+    },
+    {
+        "id"        : "WarMachine",
+        "name"      : "War Machine",
+        "image"     : "cards/war-machine.png",
+        "cost"      : 4,
+        "power"     : 5,
+        "activate"  : "ongoing",
+        "ability"   : "Your 1-Cost cards have +1 Power."
+    },
+    {
+        "id"        : "Warpath",
+        "name"      : "Warpath",
+        "image"     : "cards/warpath.png",
+        "cost"      : 4,
+        "power"     : 5,
+        "activate"  : "ongoing",
+        "ability"   : "If any of your locations are empty, +4 Power."
+    },
+    {
+        "id"        : "Wasp",
+        "name"      : "Wasp",
+        "image"     : "cards/wasp.png",
+        "cost"      : 0,
+        "power"     : 1,
+        "activate"  : "never",
+        "ability"   : "none"
+    },
+    {
+        "id"        : "Wave",
+        "name"      : "Wave",
+        "image"     : "cards/wave.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Next turn, cards in both players' hands cost 4."
+    },
+    {
+        "id"        : "WhiteQueen",
+        "name"      : "White Queen",
+        "image"     : "cards/white-queen.png",
+        "cost"      : 4,
+        "power"     : 6,
+        "activate"  : "reveal",
+        "ability"   : "Draw a copy of the highest Cost card in your opponent's hand."
+    },
+    {
+        "id"        : "WhiteTiger",
+        "name"      : "White Tiger",
+        "image"     : "cards/white-tiger.png",
+        "cost"      : 5,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "Add a 7-Power Tiger to another location."
+    },
+    {
+        "id"        : "WidowsBite",
+        "name"      : "Widow's Bite",
+        "image"     : "cards/widows-bite.png",
+        "cost"      : 0,
+        "power"     : 0,
+        "activate"  : "always",
+        "ability"   : "While this is in your hand, cards in your deck cannot be drawn."
+    },
+    {
+        "id"        : "WinterSoldier",
+        "name"      : "WinterSoldier",
+        "image"     : "cards/winter-soldier.png",
+        "cost"      : 2,
+        "power"     : 6,
+        "activate"  : "always",
+        "ability"   : "While this is in your hand, cards in your deck cannot be drawn."
+    },
+    {
+        "id"        : "Witchfire",
+        "name"      : "Witchfire",
+        "image"     : "cards/witchfire.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Your opponent draws a card, increase its cost by 1."
+    },
+    {
+        "id"        : "Wolfsbane",
+        "name"      : "Wolfsbane",
+        "image"     : "cards/wolfsbane.png",
+        "cost"      : 3,
+        "power"     : 1,
+        "activate"  : "reveal",
+        "ability"   : "+2 Power for each other card you have here."
+    },
+    {
+        "id"        : "Wolverine",
+        "name"      : "Wolverine",
+        "image"     : "cards/wolverine.png",
+        "cost"      : 2,
+        "power"     : 3,
+        "activate"  : "discard",
+        "ability"   : "When this is discarded or destroyed, play it at a random location."
+    },
+    {
+        "id"        : "Wong",
+        "name"      : "Wong",
+        "image"     : "cards/wong.png",
+        "cost"      : 4,
+        "power"     : 2,
+        "activate"  : "ongoing",
+        "ability"   : "Your On Reveal abilities at this location happen twice."
+    },
+    {
+        "id"        : "X23",
+        "name"      : "X 23",
+        "image"     : "cards/x-23.png",
+        "cost"      : 3,
+        "power"     : 3,
+        "activate"  : "discard",
+        "ability"   : "When this is discarded from your hand, put it back. It costs 0."
+    },
+    {
+        "id"        : "Yellowjacket",
+        "name"      : "Yellowjacket",
+        "image"     : "cards/yellowjacket.png",
+        "cost"      : 0,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Afflict your other cards at this location with -1 Power."
+    },
+    {
+        "id"        : "Yondu",
+        "name"      : "Yondu",
+        "image"     : "cards/yondu.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "reveal",
+        "ability"   : "Remove the top card of your opponent's deck."
+    },
+    {
+        "id"        : "YoYo",
+        "name"      : "Yo-Yo",
+        "image"     : "cards/yo-yo.png",
+        "cost"      : 1,
+        "power"     : 2,
+        "activate"  : "onmove",
+        "ability"   : "When this card moves, move it back with +1 Power."
+    }, 
+    {
+        "id"        : "Zabu",
+        "name"      : "Zabu",
+        "image"     : "cards/zabu.png",
+        "cost"      : 5,
+        "power"     : 7,
+        "activate"  : "always",
+        "ability"   : "If this is in your hand when you discard a card, put that card back and discard this instead."
+    },
+    {
+        "id"        : "Zero",
+        "name"      : "Zero",
+        "image"     : "cards/zero.png",
+        "cost"      : 1,
+        "power"     : 3,
+        "activate"  : "reveal",
+        "ability"   : "Remove the abilities on the next card you play."
+    }
+]
